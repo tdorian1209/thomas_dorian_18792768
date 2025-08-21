@@ -1,0 +1,5 @@
+FROM mcr.microsoft.com/devcontainers/universal:2-linux
+#I dont know why it hates me
+RUN apt-get update && \
+pip install django && \
+pip install pymongo
